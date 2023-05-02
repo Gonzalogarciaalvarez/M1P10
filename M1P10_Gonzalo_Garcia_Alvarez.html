@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Práctica 10</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Inputs para la introduccion de datos personales con un estilo sencillo al centro--> 
+    <form  action="/formulario" method="post">
+    <fieldset name="DatosPersonales">
+      <legend>Datos Personales</legend>
+      <p>Nombre <input type="text"></p>
+      <p>Apellidos <input type="text"></p>
+      <p>Telefono <input type="tel"></p>
+      <p>Direccion <input type="text"></p>
+      <p>Email <input type="email"></p>
+      </fieldset>
+    <!--En el checkbox queria hacer que solo pudieses seleccionar una opcion pero no di hecho-->
+    <fieldset name="SeleccionarCurso">
+      <legend>Seleccionar Curso</legend>
+      <label><input type="checkbox" />Curso Front End</label>
+      <label><input type="checkbox" />Curso de Java</label>
+      <label><input type="checkbox" />Curso Full Stack</label>
+      </fieldset>
+      <br>
+      <input type="submit"/>
+    </form>
+  </body>
+</html>
